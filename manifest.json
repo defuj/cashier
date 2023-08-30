@@ -1,7 +1,7 @@
 {
-    "name": "DaftarMenu - Kasir",
-    "short_name": "DaftarMenu - Kasir",
-    "start_url": "https://daftarmenu.com/cashier/",
+    "name": "DaftarMenu.com - Cashier",
+    "short_name": "DaftarMenu.com - Cashier",
+    "start_url": "https://cashier.daftarmenu.com/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#32a02d",
