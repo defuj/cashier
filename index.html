@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <base href="/cashier/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Increase your restaurant's income with the best service using daftarmenu.com">
+  <meta name="description"
+    content="Tingkatkan pendapatan restoran kamu dengan pelayanan terbaik menggunakan daftarmenu.com, Coba dan buat menu kamu menjadi QR Code secara gratis.">
   <meta name="viewport" content="width=device-width" />
   <!-- iOS meta tags & icons -->
   <meta name=" apple-mobile-web-app-capable" content="yes">
@@ -16,12 +17,12 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>DaftarMenu - Cashier</title>
+  <title>Daftarmenu - Kasir</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1538731649';
+    var serviceWorkerVersion = "4317235";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -48,7 +49,7 @@
 </head>
 <body>
   <div class="loading">
-    <lottie-player src="https://defuj.github.io/cashier/loading.json" background="transparent" speed="1" class="lottie"
+    <lottie-player src="https://daftarmenu.com/cashier/loading.json" background="transparent" speed="1" class="lottie"
       loop autoplay></lottie-player>
   </div>
 
@@ -60,6 +61,37 @@
       window.addEventListener("load", function () {
         navigator.serviceWorker.register("firebase-messaging-sw.js");
       });
+    }
+  </script>
+
+  <script>
+    let deferredPrompt;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      deferredPrompt = e;
+    });
+
+    function promptInstall() {
+      deferredPrompt.prompt();
+    }
+
+    // Listen for app install event
+    window.addEventListener('appinstalled', () => {
+      deferredPrompt = null;
+      appInstalled();
+    });
+
+    // Track how PWA was launched (either from browser or as PWA)
+    function getLaunchMode() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+      if (deferredPrompt) hasPrompt();
+      if (document.referrer.startsWith('android-app://')) {
+        appLaunchedAsTWA();
+      } else if (navigator.standalone || isStandalone) {
+        appLaunchedAsPWA();
+      } else {
+        window.appLaunchedInBrowser();
+      }
     }
   </script>
 

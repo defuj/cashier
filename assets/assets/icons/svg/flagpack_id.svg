@@ -1,0 +1,33 @@
+<svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flagpack:id" clip-path="url(#clip0_812_15952)">
+<g id="Mask group">
+<mask id="mask0_812_15952" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="16">
+<g id="Group">
+<path id="Vector" d="M0 0H21V16H0V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_812_15952)">
+<g id="Group_2">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V16H21V0H0Z" fill="#F7FCFF"/>
+<g id="Mask group_2">
+<mask id="mask1_812_15952" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="16">
+<g id="Group_3">
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V16H21V0H0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_812_15952)">
+<g id="Group_4">
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V8H21V0H0Z" fill="#E31D1C"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_812_15952">
+<rect width="21" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
