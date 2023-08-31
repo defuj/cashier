@@ -27936,10 +27936,10 @@ n=A.iC(a,!1,!1,!0,!1,!0)
 n=A.dg(A.a([o,A.cf(A.ki(B.l,A.aS(k,B.ij,B.m,k,k,new A.bn(B.j,k,k,A.cn(24),k,k,B.A),k,k,k,B.c3,k),B.aR,new A.aK7(b),k),n),B.bu],p),B.B,B.aJ,B.w,B.E)
 o=A.cn(8)
 m=b.p3==="progress"?B.j:B.l
-o=A.eg(!1,!0,A.aS(k,A.dg(A.a([A.dD("assets/icons/svg/in-progress.svg",k,24,k,24),B.de,A.av(A.a8("order.in_progress"),k,k,k,A.v(a).p3.z.aQ(B.n,B.v),k,k)],p),B.B,B.F,B.w,B.E),B.m,k,k,new A.bn(m,k,k,o,k,k,B.A),k,k,k,B.c2,120),k,!0,k,k,B.l,B.l,k,k,k,k,k,new A.aK8(b),k,B.l,B.as,k)
+o=A.eg(!1,!0,A.aS(k,A.dg(A.a([A.dD("assets/icons/svg/in-progress.svg",k,24,k,24),B.de,A.av(A.a8("order.in_progress"),k,k,k,A.v(a).p3.z.aQ(B.n,B.v),k,k)],p),B.B,B.F,B.w,B.E),B.m,k,k,new A.bn(m,k,k,o,k,k,B.A),k,k,k,B.c2,150),k,!0,k,k,B.l,B.l,k,k,k,k,k,new A.aK8(b),k,B.l,B.as,k)
 m=A.cn(8)
 l=b.p3==="done"?B.j:B.l
-m=A.ht(B.X,A.a([B.bm,o,A.eg(!1,!0,A.aS(k,A.dg(A.a([A.dD("assets/icons/svg/in-ok.svg",k,24,k,24),B.de,A.av(A.a8("order.completed"),k,k,k,A.v(a).p3.z.aQ(B.n,B.v),k,k)],p),B.B,B.F,B.w,B.E),B.m,k,k,new A.bn(l,k,k,m,k,k,B.A),k,k,k,B.c2,110),k,!0,k,k,B.l,B.l,k,k,k,k,k,new A.aK9(b),k,B.l,B.as,k)],p),B.aE,B.U,B.X,0,0,k,B.E)
+m=A.ht(B.X,A.a([B.bm,o,A.eg(!1,!0,A.aS(k,A.dg(A.a([A.dD("assets/icons/svg/in-ok.svg",k,24,k,24),B.de,A.av(A.a8("order.completed"),k,k,k,A.v(a).p3.z.aQ(B.n,B.v),k,k)],p),B.B,B.F,B.w,B.E),B.m,k,k,new A.bn(l,k,k,m,k,k,B.A),k,k,k,B.c2,150),k,!0,k,k,B.l,B.l,k,k,k,k,k,new A.aK9(b),k,B.l,B.as,k)],p),B.aE,B.U,B.X,0,0,k,B.E)
 o=b.p3==="progress"?b.RG.length:b.R8.length
 o=A.a([A.oS(q,A.aMp(A.a([B.a6,n,B.a6,m,B.a6,A.FP(k,new A.aKa(b),o,k,B.bl,!1,B.ar,!0)],p),k,k))],p)
 if(b.aj)B.c.I(o,A.a([B.Py],p))
